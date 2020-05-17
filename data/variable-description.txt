@@ -232,7 +232,7 @@ USG% : Usage Percentage (estimate of percentage of plays that ended with a shot,
 
 OWS : Offensive Win Shares (estimate of number of wins contributed by a player due to his offense)
 
-DWS : Defensive Win Shares (estimate of number of wins contributed by a player due to hois defence)
+DWS : Defensive Win Shares (estimate of number of wins contributed by a player due to his defence)
 
 WS : Win Shares (estimate of number of wins contributed by a player)
 
