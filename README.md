@@ -10,7 +10,7 @@ I am a data analyst with the Chicago Bulls competing in the NBA (National Basket
 
 ## Aims
 
-I have been tasked by the GM of the Chicago Bulls to find the best five starting players (one from each position) the team can afford. (It should be noted that all of the money shouldn't be used up on just these five players, as there needs to be enough money left to fill the rest of the roster, but this assignment is just focused on finding five starting players here). Players that are already playing for Chicago Bulls can be considered, bit it needs to be proven that they are worth it.
+I have been tasked by the GM of the Chicago Bulls to find the best five starting players (one from each position) the team can afford. (It should be noted that all of the money shouldn't be used up on just these five players, as there needs to be enough money left to fill the rest of the roster, but this assignment is just focused on finding five starting players here). Players that are already playing for Chicago Bulls can be considered, but it needs to be proven that they are worth it.
 
 
 ## Directory Contents
