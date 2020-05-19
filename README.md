@@ -31,3 +31,23 @@ Both of the above allow for easy use of relative paths instead of absolute paths
 
 - **out:** houses any files produced from original data files, like the ones in the **data/processed** directory
 
+
+
+## Data Source
+
+To assist with the completion of this project, the following data sets were used:
+
+1. **2018-19_nba_player_statistics.csv:** sourced from [basketball-reference.com](https://www.basketball-reference.com/leagues/NBA_2019_totals.html)
+
+2. **2018-19_nba_player_stats_advanced.csv:** sourced from [basketball-reference.com](https://www.basketball-reference.com/leagues/NBA_2019_advanced.html)
+
+3. **2018-19_nba_player-salaries.csv:** sourced from [hoopshype.com](https://hoopshype.com/salaries/)
+
+4. **2018-19_nba_team_statistics_1.csv:** sourced from [basketball-reference.com](https://www.basketball-reference.com/leagues/NBA_2019.html)
+
+5. **2018-19_nba_team_statistics_2.csv:** sourced from [basketball-reference.com](https://www.basketball-reference.com/leagues/NBA_2019.html)
+
+6. **2019-20_nba_team-payroll.csv:** sourced from [hoopshype.com](https://hoopshype.com/salaries/)
+
+The description of the variables in each dataset is located in **data/variable-description.txt**
+
