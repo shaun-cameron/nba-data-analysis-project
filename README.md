@@ -49,5 +49,6 @@ To assist with the completion of this project, the following data sets were used
 
 6. **2019-20_nba_team-payroll.csv:** sourced from [hoopshype.com](https://hoopshype.com/salaries/)
 
-The description of the variables in each dataset is located in **data/variable-description.txt**
+The description of the variables in each dataset is located in **data/raw/variable-description-raw.txt**\
+for the raw data files, & **data/processed/variable-description-processed.txt** for the processed data files.
 
