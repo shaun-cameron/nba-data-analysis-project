@@ -51,3 +51,48 @@ WS : Win Shares (estimate of number of wins contributed by a player)
 
 WSpG : Win Shares per Game (estimate of number of wins contributed by a player per 48 minutes - league average is .100)
 
+2. team_stats_final.csv
+
+This data file provides processed data for NBA teams during the 2018-19 season from the raw data files. The variables are:
+
+Team : Team name
+
+G : Games played
+
+W : Wins
+
+Rk : Team ranking based on wins
+
+team payroll budget in 2019-20 in $USD
+
+ORtg : Offensive Rating; An estimate of points produced (players) or scored (teams) per 100 possessions
+
+DRtg : Defensive Rating; An estimate of points allowed per 100 possessions
+
+TSp : True Shooting Percentage (measure of shooting efficiency that accounts for 2P, 3P & FT)
+
+eFGp : Effective Field Goal Percentage - This statistic adjusts for the fact that a 3-point field goal is worth one more point than a 2-point field goal.
+
+PPG : Points per game
+
+APG : Assists per game
+
+RPG : Rebounds per game
+
+OPG : Offensive rebounds per game
+
+DPG : Defensive rebounds per game
+
+SPG : Steals per game
+
+BPG : Blocks per game
+
+TPG : Turnovers per game
+
+FPG : Fouls per game
+
+PPM : Points per minute
+
+APM : Assists per minute
+
+RPM : Rebounds per minute
