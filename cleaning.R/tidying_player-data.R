@@ -1,4 +1,4 @@
-## Reading, Tidying & Transforming Raw Data
+## Reading, Tidying & Transforming Raw Player Data
 
 
 library(tidyverse) # loads relevant packages for reading, tidying and transforming data
