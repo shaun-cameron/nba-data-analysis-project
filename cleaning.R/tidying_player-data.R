@@ -160,6 +160,7 @@ player_salaries$player_name <- player_salaries$player_name %>%
 ## character replacing it.
 
 player_salaries_tidy <- player_salaries %>%
+  arrange(player_name) %>%
   select(player_name : salary)
   
 ## The above code selects the necessary variables for the analysis.
@@ -168,14 +169,14 @@ player_salaries_tidy <- player_salaries %>%
 
 ## Combining the Data - player_x_transformed
 
-stats_joined <- left_join(x = player_stats_tidy, y = player_stats_adv__tidy, 
+stats_joined <- inner_join(x = player_stats_tidy, y = player_stats_adv__tidy, 
             by = "player_name")
 
 ## The above code combines the transformed data of the player_stats & player_stats_adv files.
 
 
 player_stats_final <- stats_joined %>%
-  left_join(x = stats_joined, y = player_salaries_tidy, 
+  inner_join(x = stats_joined, y = player_salaries_tidy, 
             by = "player_name") %>%
   select(player_name : G, salary, WAR, PPG : FPG, eFGp, PER : WSpG)
 
