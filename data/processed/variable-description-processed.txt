@@ -25,6 +25,10 @@ APG : Assists per Game
 
 APM : Assists per Minute of player court time
 
+RPG : Rebounds per game
+
+RPM : Rebounds per minute
+
 OPG : Offensive Rebounds per Game
 
 DPG : Defensive Rebounds per Game

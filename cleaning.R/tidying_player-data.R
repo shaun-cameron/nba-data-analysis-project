@@ -59,7 +59,7 @@ player_stats_tidy <- player_stats %>%
          RPM = TRB / MP) %>%
   mutate_if(is.numeric, round, digits = 3) %>%
   select(player_name : G, eFGp, PPG, 
-         PPM, APG, APM, OPG, DPG, SPG,
+         PPM, APG, APM, RPG, RPM, OPG, DPG, SPG,
          BPG, TPG, FPG)
 
 ## The above code does the following things: 
