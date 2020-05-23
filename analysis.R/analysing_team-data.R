@@ -128,7 +128,7 @@ spg_wins <- teams %>%
 
 spg_wins
 
-cor(teams$SPG, teams$W, method = "pearson") # More steals per game does not affect wins.
+cor(teams$SPG, teams$W, method = "pearson") # More steals per weakly influences wins.
 
 
 ## BPG vs Wins
@@ -152,7 +152,7 @@ tpg_wins <- teams %>%
 
 tpg_wins
 
-cor(teams$TPG, teams$W, method = "pearson") # Turnovers per game do not affect wins.
+cor(teams$TPG, teams$W, method = "pearson") # Turnovers per game have a weak influence on losses.
 
 
 ## FPG vs Wins
@@ -164,8 +164,8 @@ fpg_wins <- teams %>%
 
 fpg_wins
 
-cor(teams$FPG, teams$W, method = "pearson") # Fouls do not influence wins.
+cor(teams$FPG, teams$W, method = "pearson") # Fouls have a weak influence on losses.
 
 
-## Metrics to be used in modelling expected Wins : PPG, TSp, eFGp, APG, DPG, BPG. 
+
   
