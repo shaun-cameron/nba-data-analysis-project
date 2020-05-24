@@ -161,8 +161,9 @@ centre %>%
 ## Selecting Centres by Expected WAR
 
 centre %>%
-  select(player_name, Tm, Age, salary, XPWAR) %>%
-  arrange(desc(XPWAR), salary) %>%
+  mutate(sal_mil = salary / 1000000) %>%
+  select(player_name, Tm, Age, sal_mil, XPWAR) %>%
+  arrange(desc(XPWAR), sal_mil) %>%
   top_n(10)
 
 
@@ -306,10 +307,10 @@ pf_new %>%
 ## Selecting Power Forwards by Expected WAR
 
 pf_new %>%
-  select(player_name, Tm, Age, salary, XPWAR) %>%
-  arrange(desc(XPWAR), salary) %>%
+  mutate(sal_mil = salary / 1000000) %>%
+  select(player_name, Tm, Age, sal_mil, XPWAR) %>%
+  arrange(desc(XPWAR), sal_mil) %>%
   top_n(10)
-
 
 
 
@@ -453,8 +454,9 @@ sf_new %>%
 ## Selecting Small Forwards by Expected WAR
 
 sf_new %>%
-  select(player_name, Tm, Age, salary, XPWAR) %>%
-  arrange(desc(XPWAR), salary) %>%
+  mutate(sal_mil = salary / 1000000) %>%
+  select(player_name, Tm, Age, sal_mil, XPWAR) %>%
+  arrange(desc(XPWAR), sal_mil) %>%
   top_n(10)
 
 
@@ -615,8 +617,9 @@ pg %>%
 ## Selecting Point Guards by Expected WAR
 
 pg %>%
-  select(player_name, Tm, Age, salary, XPWAR) %>%
-  arrange(desc(XPWAR), salary) %>%
+  mutate(sal_mil = salary / 1000000) %>%
+  select(player_name, Tm, Age, sal_mil, XPWAR) %>%
+  arrange(desc(XPWAR), sal_mil) %>%
   top_n(10)
 
 
@@ -761,6 +764,7 @@ sg %>%
 ## Selecting Shooting Guards by Expected WAR
 
 sg %>%
-  select(player_name, Tm, Age, salary, XPWAR) %>%
-  arrange(desc(XPWAR), salary) %>%
+  mutate(sal_mil = salary / 1000000) %>%
+  select(player_name, Tm, Age, sal_mil, XPWAR) %>%
+  arrange(desc(XPWAR), sal_mil) %>%
   top_n(10)
