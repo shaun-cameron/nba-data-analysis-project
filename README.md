@@ -29,7 +29,13 @@ Both of the above allow for easy use of relative paths instead of absolute paths
 
 - **funs:** holds any functions written by myself that can be sourced
 
+- **graphics.R:** contains files that run code related to the final visualisations for communication
+
+- **modelling.R:** contains files that run code related to the regression modelling of the processed data
+
 - **out:** houses any files produced from original data files, like the ones in the **data/processed** directory
+
+- **packrat:** holds all the R packages used in the project
 
 
 

@@ -131,7 +131,7 @@ ggplot(NULL, aes(fitted, res)) +
 
 ## Normality of Residuals
 
-ggplot(NULL, aes(sample= res)) +
+ggplot(NULL, aes(sample = res)) +
   stat_qq() +
   stat_qq_line()
 
@@ -157,7 +157,7 @@ sqrt(car::vif(fit_teams))
 teams <- teams %>%
   mutate(XPW = predict(fit_teams))
 
-teams %>%
+teams_model <- teams %>%
   ggplot(aes(XPW, W)) +
   geom_point(colour = "dodgerblue") +
   geom_abline(linetype = "dashed", colour = "magenta")

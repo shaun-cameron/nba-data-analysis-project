@@ -24,7 +24,7 @@ teams <- read_csv("data/processed/team_stats_final.csv")
 salary_wins <- teams %>%
   ggplot(aes(Salary / 1000000, W)) +
   geom_point() +
-  geom_smooth(method = "lm") 
+  geom_smooth(method = "lm", se = FALSE) 
 
 salary_wins
 
