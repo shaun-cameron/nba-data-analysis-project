@@ -219,9 +219,6 @@ cor(players$TSp, players$WAR, method = "pearson") # True Shooting Percentage has
 
 
 
-## All of the per game metrics will be used in the regression modelling to predict expected WAR, excpet total
-## rebounds (RPG)and fouls (FPG). Each position may have different influences on each metric, and that will 
-## be explored in the regression analysis.
 
 
 
